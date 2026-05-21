@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kauai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav>
+      <a href="#">Kauai Vacation Rental</a>
+      <div class="right-nav-bar">
+        <a href="#about">ABOUT</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#explore">EXPLORE</a>
+        <a href="#reviews">REVIEWS</a>
+        <a
+          href="https://www.airbnb.com/rooms/1490706345179181989"
+          class="nav-book-now"
+          >BOOK NOW</a
+        >
+      </div>
+    </nav>
+
+    <!-- hero image -->
+    <section class="hero">
+      <img src="./images/banyon-beach.jpg" alt="banyon-beach" />
+      <div class="hero-gradient"></div>
+      <div class="hero-text">
+        <p class="hero-location">LIHUE, KAUAI • HAWAI'I</p>
+        <h1>Escape to <i>Kauai</i></h1>
+        <p>
+          Wake up to ocean and mountain views in a prime Lihue retreat just
+          steps from Kalapaki Beach—complete with resort amenities, private
+          en-suite bedrooms, and everything you need for the perfect Kauai
+          getaway.
+        </p>
+        <a
+          class="hero-book-now-button"
+          href="https://www.airbnb.com/rooms/1490706345179181989"
+        >
+          <p>Book Now</p>
+          <i data-lucide="chevron-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- quick stats -->
+    <section class="stats">
+      <div class="stat-box">
+        <h1>2</h1>
+        <p>BEDROOMS</p>
+      </div>
+      <div class="stat-box">
+        <h1>2</h1>
+        <p>BATHROOMS</p>
+      </div>
+      <div class="stat-box">
+        <h1>14</h1>
+        <p>BOOKINGS</p>
+      </div>
+      <div class="stat-box">
+        <h1>4.81</h1>
+        <p>RATING</p>
+      </div>
+      <div class="stat-box" id="last-stat-box">
+        <h1>27</h1>
+        <p>REVIEWS</p>
+      </div>
+    </section>
+
+    <!-- unit information -->
+    <section id="about">
+      <div class="about-text-container">
+        <p class="section-subheader">ABOUT</p>
+        <h1 class="section-header">Your paradise <i>awaits</i></h1>
+        <p>
+          Say hello to a prime location with 24-hr security and an easy drive to
+          the North and South shores at this Lihue vacation rental.
+          <br /><br />This single-level unit features 2 bedrooms, each with a
+          private full bathroom, 2 lanais offering ocean and mountain views, and
+          a fully equipped kitchen with everything you need to cook or grill.
+          <br /><br />Kalapaki Beach, dining, and shopping are just steps away;
+          the airport is a 7 min ride; Costco and Target a 5 min ride. Enjoy the
+          onsite pool and pickleball court too!
+        </p>
+
+        <div class="ammenities-container">
+          <div class="ammenity-item">
+            <i data-lucide="ship"></i>
+            <p>Beachfront Access</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="waves-ladder"></i>
+            <p>Pool</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="utensils"></i>
+            <p>Full Kitchen</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="wifi"></i>
+            <p>WiFi</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="rows-4"></i>
+            <p>Grill</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="tv"></i>
+            <p>TV</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="washing-machine"></i>
+            <p>Washer & Dryer</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="sofa"></i>
+            <p>Pull-Out Sofa</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="car-front"></i>
+            <p>Free Parking</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="air-vent"></i>
+            <p>Air Conditioning</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="dices"></i>
+            <p>Board Games</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="rocking-chair"></i>
+            <p>Private Balcony</p>
+          </div>
+          <div class="ammenity-item">
+            <i data-lucide="volleyball"></i>
+            <p>Beach Essentials</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- photo section -->
+    <section class="gallery-section" id="gallery">
+      <div class="gallery-container">
+        <div class="carousel">
+          <div class="carousel-track" id="track">
+            <!-- living room -->
+            <img src="./images/2-web.jpg" alt="Image 1" />
+            <img src="./images/14-web.jpg" alt="Image 2" />
+            <img src="./images/4-web.jpg" alt="Image 4" />
+            <img src="./images/3-web.jpg" alt="Image 5" />
+            <img src="./images/6-web.jpg" alt="Image 6" />
+            <img src="./images/29-web.jpg" alt="Image 7" />
+            <img src="./images/19-web.jpg" alt="Image 8" />
+
+            <!-- kitchen -->
+            <img src="./images/18-web.jpg" alt="Image 9" />
+            <img src="./images/17-web.jpg" alt="Image 10" />
+
+            <!-- dining area -->
+            <img src="./images/15-web.jpg" alt="Image 11" />
+            <img src="./images/16-web.jpg" alt="Image 12" />
+
+            <!-- bedroom 1 -->
+            <img src="./images/20-web.jpg" alt="Image 13" />
+            <img src="./images/22-web.jpg" alt="Image 14" />
+            <img src="./images/23-web.jpg" alt="Image 15" />
+            <img src="./images/24-web.jpg" alt="Image 16" />
+            <img src="./images/21-web.jpg" alt="Image 17" />
+            <img src="./images/25-web.jpg" alt="Image 18" />
+            <img src="./images/28-web.jpg" alt="Image 19" />
+
+            <!-- bedroom 2 -->
+            <img src="./images/32-web.jpg" alt="Image 20" />
+            <img src="./images/31-web.jpg" alt="Image 21" />
+
+            <!-- bathroom 1 -->
+            <img src="./images/27-web.jpg" alt="Image 22" />
+            <img src="./images/26-web.jpg" alt="Image 23" />
+
+            <!-- bathroom 2 -->
+            <img src="./images/33-web.jpg" alt="Image 24" />
+
+            <!-- balcony -->
+            <img src="./images/7-web.jpg" alt="Image 25" />
+            <img src="./images/9-web.jpg" alt="Image 26" />
+            <img src="./images/10-web.jpg" alt="Image 27" />
+            <img src="./images/12-web.jpg" alt="Image 28" />
+
+            <!-- exterior -->
+            <img src="./images/1-web.jpg" alt="Image 29" />
+            <img src="./images/13-web.jpg" alt="Image 30" />
+            <img src="./images/37-web.jpg" alt="Image 31" />
+            <img src="./images/38-web.jpg" alt="Image 32" />
+            <img src="./images/39-web.jpg" alt="Image 33" />
+
+            <!-- pool -->
+            <img src="./images/34-web.jpg" alt="Image 34" />
+            <img src="./images/35-web.jpg" alt="Image 35" />
+            <img src="./images/36-web.jpg" alt="Image 36" />
+          </div>
+
+          <button class="carousel-btn prev" id="prev">
+            <i data-lucide="chevron-left"></i>
+          </button>
+          <button class="carousel-btn next" id="next">
+            <i data-lucide="chevron-right"></i>
+          </button>
+
+          <div class="carousel-counter" id="counter">1 / 30</div>
+        </div>
+        <div class="gallery-text-container">
+          <p class="section-subheader">GALLERY</p>
+          <h1 class="section-header">Every corner<br />tells a <i>story</i></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- explore section -->
+    <section class="explore-container" id="explore">
+      <p class="section-subheader">EXPLORE</p>
+      <h1 class="section-header">
+        The best of<br /><i>Kauai</i> at your doorstep
+      </h1>
+
+      <div class="explore-body">
+        <!-- explore list -->
+        <div class="explore-items">
+          <!-- explore item -->
+          <div class="explore-item">
+            <p class="explore-number">01</p>
+            <div class="explore-location-container">
+              <p class="explore-location">Kalapaki Beach</p>
+              <p class="explore-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <p class="explore-distance">9 min walk</p>
+          </div>
+
+          <!-- explore item -->
+          <div class="explore-item">
+            <p class="explore-number">02</p>
+            <div class="explore-location-container">
+              <p class="explore-location">Wailua Falls</p>
+              <p class="explore-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <p class="explore-distance">20 min drive</p>
+          </div>
+
+          <!-- explore item -->
+          <div class="explore-item">
+            <p class="explore-number">03</p>
+            <div class="explore-location-container">
+              <p class="explore-location">Poipu Beach</p>
+              <p class="explore-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <p class="explore-distance">25 min drive</p>
+          </div>
+
+          <!-- explore item -->
+          <div class="explore-item">
+            <p class="explore-number">04</p>
+            <div class="explore-location-container">
+              <p class="explore-location">Jurrasic Park Falls</p>
+              <p class="explore-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <p class="explore-distance">30 min drive</p>
+          </div>
+
+          <!-- explore item -->
+          <div class="explore-item">
+            <p class="explore-number">05</p>
+            <div class="explore-location-container">
+              <p class="explore-location">Waimea Canyon State Park</p>
+              <p class="explore-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <p class="explore-distance">60 min drive</p>
+          </div>
+
+          <!-- explore item -->
+          <div class="explore-item last-explore-item">
+            <p class="explore-number">06</p>
+            <div class="explore-location-container">
+              <p class="explore-location">NāPali Coast</p>
+              <p class="explore-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <p class="explore-distance">90 min drive</p>
+          </div>
+        </div>
+        <div class="explore-image-container">
+          <img src="./images/kauai-1.jpg" alt="Kauai 1" class="explore-image" />
+          <img src="./images/kauai-2.jpg" alt="Kauai 1" class="explore-image" />
+        </div>
+      </div>
+      <p class="explore-footer">
+        We can connect you with a local independent car rental company for your
+        convenience
+      </p>
+    </section>
+
+    <!-- review section -->
+    <section id="reviews">
+      <div class="reviews-container">
+        <p class="section-subheader">REVIEWS</p>
+        <h1 class="section-header reviews-section-header">
+          Guests who <i>never want to leave</i>
+        </h1>
+        <div class="review-items" id="review-items">
+          <!-- review 1 -->
+          <div class="review-card">
+            <div>
+              <div class="review-star-container">
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+              </div>
+              <p class="review-quote">
+                "Absolutely fantastic place to stay. Peaceful, great location,
+                great price, and very responsive owner."
+              </p>
+            </div>
+            <div>
+              <p class="review-name">Paul</p>
+              <p class="review-date">Jun 26, 2025</p>
+            </div>
+          </div>
+
+          <!-- review 2 -->
+          <div class="review-card">
+            <div>
+              <div class="review-star-container">
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+              </div>
+              <p class="review-quote">
+                "One of the most comfortable Airbnbs I've stayed in. Had
+                everything we needed."
+              </p>
+            </div>
+            <div>
+              <p class="review-name">Jessalyn</p>
+              <p class="review-date">Aug 7, 2025</p>
+            </div>
+          </div>
+
+          <!-- review 3 -->
+          <div class="review-card">
+            <div>
+              <div class="review-star-container">
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+              </div>
+              <p class="review-quote">
+                "The condo is super nice, with new appliances! It was absolute
+                paradise!"
+              </p>
+            </div>
+            <div>
+              <p class="review-name">Sondra</p>
+              <p class="review-date">Jan 26, 2026</p>
+            </div>
+          </div>
+
+          <!-- review 4 -->
+          <div class="review-card">
+            <div>
+              <div class="review-star-container">
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+              </div>
+              <p class="review-quote">
+                "I brought my family with me and we all loved it. We talked
+                about if we return to visit again we would all like to stay at
+                this listing again."
+              </p>
+            </div>
+            <div>
+              <p class="review-name">Alexandria</p>
+              <p class="review-date">Sep 11, 2025</p>
+            </div>
+          </div>
+
+          <!-- review 5 -->
+          <div class="review-card">
+            <div>
+              <div class="review-star-container">
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+              </div>
+              <p class="review-quote">
+                "Great place to stay! The beach chairs, towels, coolers,
+                umbrellas, and beach bag were very nice to have! Would
+                definitely stay again."
+              </p>
+            </div>
+            <div>
+              <p class="review-name">Lacey</p>
+              <p class="review-date">Mar 1, 2026</p>
+            </div>
+          </div>
+
+          <!-- review 6 -->
+          <div class="review-card">
+            <div>
+              <div class="review-star-container">
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+                <i
+                  data-lucide="star"
+                  style="fill: #0d2b35; stroke: #0d2b35"
+                ></i>
+              </div>
+              <p class="review-quote">
+                "Everything was just like the photos. Really beautiful and
+                clean."
+              </p>
+            </div>
+            <div>
+              <p class="review-name">Chayde</p>
+              <p class="review-date">Feb 28, 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- book section -->
+    <section class="book-section">
+      <p class="section-subheader">READY, SET, ALOHA</p>
+      <h1 class="section-header">
+        Your Hawaiian <i>story</i><br />starts here
+      </h1>
+      <!-- <p class="book-section-description">
+        From $650/night • Minimum 1 night • Free cancelation up to 7 days before
+        arrival
+      </p> -->
+      <a
+        class="hero-book-now-button"
+        href="https://www.airbnb.com/rooms/1490706345179181989"
+      >
+        <p>Book on Airbnb</p>
+        <i data-lucide="chevron-right"></i>
+      </a>
+      <p class="book-section-footer">
+        Free cancellation • No hidden fees • Instant confirmation
+      </p>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer-section">
+      <p>© 2026 SAMD Properties</p>
+    </section>
+
+    <script>
+      window.addEventListener("scroll", () => {
+        document
+          .querySelector("nav")
+          .classList.toggle("scrolled", window.scrollY > 50);
+      });
+    </script>
+    <script src="./js/image-carousel.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

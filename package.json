@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@lucide/lab": "^0.1.2",
+    "lucide": "^1.7.0"
+  }
+}
